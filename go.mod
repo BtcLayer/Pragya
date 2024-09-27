@@ -5,6 +5,7 @@ go 1.21.1
 toolchain go1.21.10
 
 require (
+	github.com/BurntSushi/toml v1.4.0
 	github.com/andybalholm/brotli v1.1.0
 	github.com/btcsuite/btcd v0.24.2
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
@@ -42,7 +43,7 @@ require (
 	github.com/pkg/profile v1.7.0
 	github.com/prometheus/client_golang v1.19.1
 	github.com/protolambda/ctxlock v0.1.0
-	github.com/rollkit/go-da v0.5.0
+	github.com/rollkit/go-da v0.8.0
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.3
 	golang.org/x/crypto v0.25.0
@@ -53,7 +54,6 @@ require (
 )
 
 require (
-	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/DataDog/zstd v1.5.5 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/VictoriaMetrics/fastcache v1.12.1 // indirect
@@ -66,7 +66,7 @@ require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.5 // indirect
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f // indirect
-	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cockroachdb/errors v1.11.1 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
 	github.com/cockroachdb/redact v1.1.5 // indirect
@@ -74,6 +74,7 @@ require (
 	github.com/consensys/bavard v0.1.13 // indirect
 	github.com/containerd/cgroups v1.1.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
+	github.com/cosmos/gogoproto v1.7.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/crate-crypto/go-ipa v0.0.0-20231025140028-3c0104f4b233 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -91,7 +92,7 @@ require (
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/felixge/fgprof v0.9.3 // indirect
 	github.com/ferranbt/fastssz v0.1.2 // indirect
-	github.com/filecoin-project/go-jsonrpc v0.3.1 // indirect
+	github.com/filecoin-project/go-jsonrpc v0.6.0 // indirect
 	github.com/fjl/memsize v0.0.2 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
@@ -227,9 +228,9 @@ require (
 	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/tools v0.23.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20231002182017-d307bd883b97 // indirect
-	google.golang.org/grpc v1.60.1 // indirect
-	google.golang.org/protobuf v1.34.1 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240604185151-ef581f913117 // indirect
+	google.golang.org/grpc v1.66.2 // indirect
+	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
