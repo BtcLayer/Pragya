@@ -1,4 +1,4 @@
-FROM ethereum/client-go:v1.13.15
+FROM ethereum/client-go:v1.14.11
 
 RUN apk add --no-cache jq bash
 
